@@ -1,5 +1,5 @@
 class role::slave2 (
-$url_site_download = 'https://raw.githubusercontent.com/PavelCoup/test_puppet_conf/production/files/index.php',
+$url_site_download = 'https://raw.githubusercontent.com/kozharskiy-vitaliy/puppet-hometask/production/files/index.php',
 ) {
 include profile::remove_readme
 include profile::download_site

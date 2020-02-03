@@ -1,5 +1,5 @@
 [Unit]
-Description=start and stop the minecraft-server
+Description=minecraft-server
 After=syslog.target network.target
 
 [Service]
